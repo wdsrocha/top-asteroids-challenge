@@ -2,4 +2,4 @@
 
 Para mais informações veja wiki:
 
-https://github.com/pzucco/top-asteroids-challenge/wiki
+https://github.com/topfreegames/top-asteroids-challenge/wiki
