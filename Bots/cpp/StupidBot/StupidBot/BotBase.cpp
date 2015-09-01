@@ -25,8 +25,8 @@ void BotBase::Update()
 		}
 	
 		gamestate->SetThrust(thrust);
-		gamestate->SetSideThrustFront(thrust);
-		gamestate->SetSideThrustBack(thrust);
+		gamestate->SetSideThrustFront(sideThrustFront);
+		gamestate->SetSideThrustBack(sideThrustBack);
 		gamestate->SetShoot(shoot);
 	}
 }
