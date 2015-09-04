@@ -240,7 +240,7 @@ void GameState::ParseData(string toParse)
     	
         for(int i = 0; i < rockIds.size(); ++i)
         {
-        	if(itr->first == shipIds[i])
+        	if(itr->first == rockIds[i])
         	{
         		found = true;
         	}
