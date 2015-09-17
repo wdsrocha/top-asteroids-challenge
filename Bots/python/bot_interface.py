@@ -114,6 +114,8 @@ class GameState(object):
             for message in sys.stdin.readline().strip().split("|"):
                 self.__exec(message)
 
+            sys.stdin.flush()
+
             for miss in self.__missing:
                 self.ships.pop(miss, None)
                 self.rocks.pop(miss, None)
