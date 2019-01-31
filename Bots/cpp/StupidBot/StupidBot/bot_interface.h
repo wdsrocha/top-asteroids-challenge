@@ -1,6 +1,7 @@
 #ifndef bot_interface_H
 #define bot_interface_H
 #include <map>
+#include <string>
 
 using namespace std;
 
