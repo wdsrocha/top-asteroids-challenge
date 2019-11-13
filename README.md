@@ -230,7 +230,9 @@ Em breve...
 A classificação é dada ao final da série de acordo com contagem de pontos. Os pontos são acumulados ao longo dos Matches e podem adquiridos ou perdidos das seguintes formas:
 
 * **+1 Ponto :** Destruir uma nave com um tiro seu.
+* **+1 Ponto :** Por nava inimiga destruída por asteroide.
 * **-1 Ponto :** Ser destruído pelo tiro de um adversário.
+* **-N Pontos :** Ser destruído por um asteroide. Onde N é o número de naves ainda vivas.
 
 **Pontuação do Torneio**
 
