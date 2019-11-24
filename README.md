@@ -1,6 +1,7 @@
 # Top Asteroids Challenge - LPC
 
 ## Índice
+
 1. [Sobre Top Asteroids](#sobre-top-asteroids)
 2. [Gameplay](#gameplay)
 3. [Campeonato](#campeonato)
@@ -71,7 +72,7 @@ O controle da nave é feito por meio dos thrusters. O Main Thruster é mais pote
 
 O canhão da nave somente atira para frente. Possui 3 niveis de charge, onde quanto mais potente mais rapido.
 
-![](http://i58.tinypic.com/2ch897d.jpg)
+![_](http://i58.tinypic.com/2ch897d.jpg)
 
 **Constantes Globais**
 
@@ -223,16 +224,18 @@ Em breve...
 
 ## Sistema de Pontuação
 
-**Pontuação das Partidas**
+### Pontuação das Partidas
 
 É considerado uma "partida" uma série de Matches com um grupo definido e fixo de bots. Cada match dura até sobrar somente um bot vivo ou até final da contagem do tempo máximo.
 
 A classificação é dada ao final da série de acordo com contagem de pontos. Os pontos são acumulados ao longo dos Matches e podem adquiridos ou perdidos das seguintes formas:
 
 * **+1 Ponto :** Destruir uma nave com um tiro seu.
+* **+1 Ponto :** Por nave inimiga destruída por asteroide.
 * **-1 Ponto :** Ser destruído pelo tiro de um adversário.
+* ***-N Pontos :** Ser destruído por um asteroide. Onde N é o número de naves ainda vivas.
 
-**Pontuação do Torneio**
+### Pontuação do Torneio
 
 Dependendo do número de competidores, os participantes serão divididos em chaves e um sistema de torneio por chaves será utilizados para selecionar os melhores bots, sempre promovendo pelo menos a metade dos bots com mais pontos de cada grupo para a próxima etapa.
 
