@@ -233,7 +233,7 @@ A classificação é dada ao final da série de acordo com contagem de pontos. O
 * **+1 Ponto :** Destruir uma nave com um tiro seu.
 * **+1 Ponto :** Por nave inimiga destruída por asteroide.
 * **-1 Ponto :** Ser destruído pelo tiro de um adversário.
-* ***-N Pontos :** Ser destruído por um asteroide. Onde N é o número de naves ainda vivas.
+* **-N Pontos :** Ser destruído por um asteroide. Onde N é o número de naves ainda vivas.
 
 ### Pontuação do Torneio
 
